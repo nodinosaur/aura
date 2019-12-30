@@ -22,6 +22,7 @@
   <meta name="og:description"
     content="Flutter London User Group Meetup is part of Londons burgeoning mobile developer community. Join us to meet other London Flutter Developers. We’ll be presenting new developments in the Flutter and Dart platforms, new frameworks, advanced animation techniques for great user interfaces, new metrics, and of course, great new Flutter apps!" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!--
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84991751-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -29,6 +30,31 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-84991751-1');
+  </script>
+  -->
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBQyb_G_8BAgo6hxKdR2xl6v2_bc9tl7aE",
+      authDomain: "flutterldn-website.firebaseapp.com",
+      databaseURL: "https://flutterldn-website.firebaseio.com",
+      projectId: "flutterldn-website",
+      storageBucket: "flutterldn-website.appspot.com",
+      messagingSenderId: "388109883674",
+      appId: "1:388109883674:web:6356a895afd60f1ab434a3",
+      measurementId: "G-ZYE1B935NF"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
   </script>
 </head>
 

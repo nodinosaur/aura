@@ -1,6 +1,6 @@
 {
-  "name": "Flutter London",
-  "short_name": "FlutterLDN",
+  "name": "FlutterLDN Web App",
+  "short_name": "FlutterLDN Web App",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -17,5 +17,5 @@
   "display": "standalone",
   "background_color": "#ffff",
   "theme_color": "#0277bd",
-  "description": "Aura is the website template that helps you to set GDG's Communities website with events, team and management in a few minutes."
+  "description": "Flutter London is an initiative to concentrate the efforts of many developers in and around London to learn, share and get productive using Flutter."
 }

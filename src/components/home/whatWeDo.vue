@@ -5,8 +5,6 @@
                <p class="google-font" style="font-size:180%">What we do?</p>
                <p class="google-font" style="font-size:110%">Flutter London is a monthly meetup for developers who are interested in Flutter and its associated technologies.</p>
 
-               <p class="google-font" style="font-size:110%">About different Google technologies</p>
-
                 <span v-for="(item,i) in whatWeDoData" :key="i">
                     <v-tooltip bottom>
                         <template v-slot:activator="{ on }" >
