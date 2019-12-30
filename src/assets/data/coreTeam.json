@@ -1,56 +1,20 @@
 [
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name": "George Medve",
+        "designation": "Organiser",
+        "twitter": "https://twitter.com/nodiosaur",
+        "linkedin": "https://www.linkedin.com/in/georgemedve",
+        "github": "https://github.com/nodinosaur",
+        "profileImage": "george.jpg",
+        "website": ""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name": "Simon Lightfoot",
+        "designation": "Stunt coordinator",
+        "twitter": "https://twitter.com/devangelslondon",
+        "linkedin": "https://www.linkedin.com/in/simonlightfoot/",
+        "github": "https://github.com/slightfoot",
+        "profileImage": "simon.jpg",
+        "website": "https://devangels.london/"
     }
 ]

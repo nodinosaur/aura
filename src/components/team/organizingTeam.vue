@@ -24,7 +24,14 @@
                             <v-list-tile-sub-title><span class="google-font">{{item.designation}}</span></v-list-tile-sub-title>
                             <v-list-tile-sub-title>
                                 
-                                <v-btn class="mt-0 mx-0" icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
+                                <!-- https://fontawesome.com/icons/youtube -->
+								<!--
+                                <v-btn class="mt-0 mx-0" icon v-if="(item.youtube).length>0" :href="item.youtube" target="_blank">
+                                    <v-icon small style="color:#1da1f2">fab fa-youtube</v-icon>
+                                </v-btn>
+								-->
+								
+								<v-btn class="mt-0 mx-0" icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
                                     <v-icon small style="color:#1da1f2">fab fa-twitter</v-icon>
                                 </v-btn>
 
@@ -35,9 +42,12 @@
                                 <v-btn class="mt-0 mx-0" icon v-if="(item.github).length>0" :href="item.github" target="_blank">
                                     <v-icon small style="color:#333">fab fa-github</v-icon>
                                 </v-btn>
-                                <!-- <v-btn class="mt-0 mx-0" icon v-if="(item.website).length>0" :href="item.website" target="_blank">
+                                
+								<!-- 
+								<v-btn class="mt-0 mx-0" icon v-if="(item.website).length>0" :href="item.website" target="_blank">
                                     <v-icon style="color:#333">link</v-icon>
-                                </v-btn> -->
+                                </v-btn> 
+								-->
 
                             </v-list-tile-sub-title>
                         </v-list-tile-content>

@@ -3,7 +3,7 @@
         <v-layout wrap align-center justify-center row fill-height >
            <v-flex xs12 md3 lg3 class="pa-2">
                <p class="google-font" style="font-size:180%">What we do?</p>
-               <p class="google-font" style="font-size:110%">Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
+               <p class="google-font" style="font-size:110%">Flutter London is a monthly meetup for developers who are interested in Flutter and its associated technologies.</p>
 
                <p class="google-font" style="font-size:110%">About different Google technologies</p>
 
@@ -37,12 +37,6 @@
                         <v-icon large style="font-size:300%">code</v-icon>
                         <p class="google-font" style="font-size:130%">Codelabs</p>
                         <p class="google-font" style="font-size:110%">Get hands-on experience and guidance from the community members</p>
-                    </v-flex>
-
-                    <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">
-                        <v-icon large style="font-size:300%">school</v-icon>
-                        <p class="google-font" style="font-size:130%">Campus Roadshows</p>
-                        <p class="google-font" style="font-size:110%">Share knowledge in different Companies, colleges and universities</p>
                     </v-flex>
 
                     <v-flex xs6 sm6 md3 lg3 class="text-xs-center pa-2">

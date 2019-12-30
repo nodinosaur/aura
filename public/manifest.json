@@ -1,6 +1,6 @@
 {
-  "name": "GDG Web App",
-  "short_name": "GDG Web App",
+  "name": "Flutter London",
+  "short_name": "FlutterLDN",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
