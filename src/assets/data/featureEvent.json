@@ -1,21 +1,21 @@
 {
-    "FeatureEventName":"IWD'19 Jalandhar",
-    "EventImage":"IWD.jpg",
+    "FeatureEventName":"Flutter Forms & Testing",
+    "EventImage":"FlutterLND-January.jpg",
     "EventDate":{
-        "Date":"31",
-        "Month":"3",
-        "Year":"2019"
+        "Date":"20",
+        "Month":"1",
+        "Year":"2020"
     },
     "EventTime":{
-        "StartTime":"09:00 AM",
-        "EndTime":"04:30 PM"
+        "StartTime":"6:30 PM",
+        "EndTime":"9:00 PM"
     },
-    "EventVenue":"Apeejay Institute of Management Technical Campus, Rama Mandi, Hoshiarpur Road, Jalandhar",
-    "EventVenueMapLink":"https://goo.gl/maps/4Z8pminYsp42",
-    "EventWebsite":"https://iwd.gdgjalandhar.com/",
-    "EventDescription":"International Women's Day (IWD) is marked on March 8th every year. In different regions, the focus of celebrations ranges from general respect and appreciation for women to a celebration of women's economic, political, and social achievements.",
+    "EventVenue":"Ocado Technology",
+    "EventVenueMapLink":"https://goo.gl/maps/7nmLavYnHBQzuUpN6",
+    "EventWebsite":"",
+    "EventDescription":"Flutter Forms: Beyond the defaults by Roberta Goodhead: This talk will explore more realistic (and more extreme) scenarios, which would demonstrate how to make the flutter forms work for any type of custom input. And Testing Flutter Apps by Andrea Bizzotto: We will learn what testable code looks like, and we will explore some scenarios where testing can be tricky, learning a few tips along the way.",
     "MeetupLink":"https://www.meetup.com/GDG-Jalandhar/events/253165595/",
-    "RegistrationLink":"https://docs.google.com/forms/d/e/1FAIpQLSciM-nL87uQd_it2ulou1mFv55aXqE9qSSnwL3No3fWhX8OzA/closedform",
-    "FBEventPageURL":"s"
+    "RegistrationLink":"",
+    "FBEventPageURL":""
 }
 
