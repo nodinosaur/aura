@@ -1,18 +1,24 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+import {routes} from './router';
+
+const items = Object.values(routes.reduce((acc, {name, path}) => {
+  if(!acc[name]) {
+    acc[name] = {
+        text: name,
+        to: path
+      }
+  }
+  return acc;
+}, {}));
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
     drawer: false,
-    items: [ 
-      { text: 'Home', to: '/', icon:'home'},
-      { text: 'Events', to: '/events', icon: 'rounded_corner'},
-      { text: 'Team', to: '/team', icon:'group'},
-      { text: 'About', to: '/about', icon: 'toc'},
-      { text: 'Contact', to: '/contact', icon:'person'}
-    ]
+    items
   },
   getters:{
     links: (state) => {
