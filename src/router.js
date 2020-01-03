@@ -6,17 +6,7 @@ Vue.use(Router);
 
 export const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: Home
-  },
-  {
     path: '*',
-    name: 'home',
-    component: Home
-  },
-  {
-    path: '/home',
     name: 'home',
     component: Home
   },
@@ -34,6 +24,11 @@ export const routes = [
     path: '/events',
     name: 'events',
     component: () => import('./views/Events.vue')
+  },
+  {
+    path: '/videos',
+    name: 'videos',
+    component: () => import('./views/Videos.vue')
   },
   {
     path: '/contact',
