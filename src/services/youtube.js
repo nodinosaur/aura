@@ -20,7 +20,7 @@ const getPlayListItems = ({playlistId, maxResults, pageToken}) =>
 export const getChannelUploads = async (pageToken) => {
   const {data: channel} = await getChannelInfo();
   const { contentDetails:{relatedPlaylists:{uploads:playlistId}} } = channel.items.pop();
-  return getPlayListItems({playlistId, pageToken, maxResults: 1});
+  return getPlayListItems({playlistId, pageToken});
 };
 
 
