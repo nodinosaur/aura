@@ -1,5 +1,10 @@
 [
     {
+        "name": "Android Alliance",
+        "link": "http://bit.ly/3930UDW",
+        "img": "android_alliance.svg"
+    },
+    {
         "name": "Codemagic",
         "link": "http://bit.ly/2rGiP35",
         "img": "codemagic.svg"
